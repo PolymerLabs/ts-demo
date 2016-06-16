@@ -1,0 +1,12 @@
+{
+  "name": "ts-demo",
+  "version": "0.1.0",
+  "description": "This template is a starting point for building apps using a drawer-based layout.  The layout is provided by `app-layout` elements.",
+  "author": "The Polymer Project Authors",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "gulp-if": "^2.0.1",
+    "gulp-typescript": "^2.13.6",
+    "merge-stream": "^1.0.0"
+  }
+}
