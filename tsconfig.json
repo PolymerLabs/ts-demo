@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "amd",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./src"
+  },
+  "filesGlob": [
+    "src/**/*.ts",
+    "!node_modules/**",
+    "!bower_components/**"
+  ],
+  "files": [
+    "src/my-app.ts",
+    "src/my-module.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
