@@ -5,8 +5,10 @@
   "author": "The Polymer Project Authors",
   "license": "BSD-3-Clause",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-if": "^2.0.1",
     "gulp-typescript": "^2.13.6",
-    "merge-stream": "^1.0.0"
+    "merge-stream": "^1.0.0",
+    "polymer-build": "git+https://github.com/Polymer/polymer-build.git"
   }
 }

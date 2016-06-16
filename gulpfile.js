@@ -1,3 +1,5 @@
+'use strict';
+
 const gulp = require('gulp');
 const gulpif = require('gulp-if');
 const typescript = require('gulp-typescript');
@@ -10,7 +12,10 @@ const PolymerProject = polymer.PolymerProject;
 let polymerProject = new PolymerProject({
   entrypoint: 'index.html',
   shell: 'src/my-app.html',
+  dependencyGlobs: ['bower_components/**/*.js', 'bower_components/**/*.html', 'bower_components/**/*.css'],
+  sourceGlobs: ['src/**'],
 });
+
 
 let tsProject = typescript.createProject('tsconfig.json');
 
